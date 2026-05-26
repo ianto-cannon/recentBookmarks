@@ -1,6 +1,7 @@
 #Recent Bookmarks
 A minimal Chrome extension that opens a full-page view of recent bookmarks sorted by creation date.
 ![Recent Bookmarks](screenshot.webp)
+
 ##Features
 *Sorted by `dateAdded`
 *Folder path shown beside each bookmark
