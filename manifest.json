@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Recent Bookmarks",
+  "version": "1.15",
+  "permissions": ["bookmarks"],
+  "icons": {
+    "16": "star16.png",
+    "32": "star32.png",
+    "48": "star48.png",
+    "128": "star128.png"
+  },
+  "action": {
+    "default_title": "Recent Bookmarks",
+    "default_icon": {
+      "16": "star16.png",
+      "32": "star32.png",
+      "48": "star48.png",
+      "128": "star128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
