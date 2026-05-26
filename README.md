@@ -1,6 +1,14 @@
 #Recent Bookmarks
 A minimal Chrome extension that opens a full-page view of recent bookmarks sorted by creation date.
 ![Recent Bookmarks](screenshot.webp)
+##Features
+*Sorted by `dateAdded`
+*Folder path shown beside each bookmark
+*Excludes folders named `New folder`
+*Opens bookmarks in a new tab
+*Minimal styling
+*No tracking
+*No network access
 ##Installation
 ###Load unpacked extension
 1. Clone or download this repository
@@ -14,14 +22,6 @@ chrome://extensions
 ##Usage
 Click the extension icon in the Chrome toolbar.
 A new tab opens showing recent bookmarks.
-##Features
-*Sorted by `dateAdded`
-*Folder path shown beside each bookmark
-*Excludes folders named `New folder`
-*Opens bookmarks in a new tab
-*Minimal styling
-*No tracking
-*No network access
 ##Files
 *`background.js` Opens `recent.html` when icon clicked
 *`manifest.json` Chrome extension manifest (MV3)
@@ -31,9 +31,3 @@ A new tab opens showing recent bookmarks.
 *`star32.png   ` HiDPI icon
 *`star48.png   ` Extensions page icon
 *`star128.png  ` Large icon
-##Permissions
-```json
-"permissions": ["bookmarks"]
-```
-Required to read and display bookmarks.
-No bookmark data leaves the browser.
