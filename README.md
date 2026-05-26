@@ -23,7 +23,7 @@ A new tab opens showing recent bookmarks.
 * No tracking
 * No network access
 ## Files
-* `background.js`   Opens recent.html when icon clicked
+* `background.js`   Opens `recent.html` when icon clicked
 * `manifest.json`   Chrome extension manifest (MV3)
 * `recent.html  `   Main page
 * `recent.js    `   Bookmark traversal + rendering
@@ -37,9 +37,3 @@ A new tab opens showing recent bookmarks.
 ```
 Required to read and display bookmarks.
 No bookmark data leaves the browser.
-## Development
-Reload after changes:
-```text
-chrome://extensions
-```
-then click `Reload`
