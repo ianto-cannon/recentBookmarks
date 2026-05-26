@@ -17,11 +17,10 @@ Developer mode
 Load unpacked
 ```
 5. Select the extension folder
----
 ## Usage
+
 Click the extension icon in the Chrome toolbar.
 A new tab opens showing recent bookmarks.
----
 ## Features
 * Sorted by `dateAdded`
 * Folder path shown beside each bookmark
@@ -33,7 +32,6 @@ New folder
 * Minimal styling
 * No tracking
 * No network access
----
 ## Files
 ```text
 background.js   Opens recent.html when icon clicked
@@ -45,14 +43,13 @@ star32.png      HiDPI icon
 star48.png      Extensions page icon
 star128.png     Large icon
 ```
----
 ## Permissions
 ```json
 "permissions": ["bookmarks"]
 ```
+
 Required to read and display bookmarks.
 No bookmark data leaves the browser.
----
 ## Development
 Reload after changes:
 ```text
@@ -62,11 +59,9 @@ then click:
 ```text
 Reload
 ```
----
 ## Notes
 * Chrome for Android does not support extensions
 * Works best on desktop Chrome / Chromium browsers
 * Manifest Version 3 (MV3)
----
 ## License
 MIT
