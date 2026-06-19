@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Recent Bookmarks",
-  "version": "1.15",
+  "version": "1.16",
   "permissions": ["bookmarks"],
   "icons": {
     "16": "star16.png",
